@@ -1,0 +1,106 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+	font-family: "Libre Franklin", sans-serif;
+	overflow-x: hidden;
+}
+
+.container {
+	width: 375px;
+	margin: 0 auto;
+}
+.logo img {
+	display: block;
+	margin: 2rem auto;
+	padding: 1.2rem;
+}
+.text h1,
+.text h3 {
+	text-align: center;
+	margin: 1.3rem;
+}
+.text h1 span {
+	color: hsl(0, 0%, 59%);
+	font-weight: 300;
+}
+.text h1 {
+	font-size: 1.2rem;
+}
+.text h3 {
+	font-size: 0.8rem;
+	color: hsl(0, 0%, 59%);
+	font-weight: 300;
+}
+.form input {
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 20px;
+	text-align: center;
+	display: block;
+	padding: 0.4rem 0.2rem;
+	border: 1px solid hsl(223, 100%, 88%);
+	text-align: left;
+}
+.form input:focus {
+	outline: none;
+	border-radius: 20px;
+	box-shadow: 0px 0px 2px #0066ff;
+	border: 2px solid hsl(223, 100%, 88%);
+}
+#error {
+	color: hsl(354, 100%, 66%);
+	text-align: center;
+	font-size: 0.7rem;
+	margin-top: 1rem;
+}
+form .btn {
+	width: 80%;
+	border-radius: 20px;
+	display: block;
+	margin: 1rem auto;
+	padding: 0.4rem 0.2rem;
+	background-color: hsl(223, 87%, 63%);
+	color: white;
+	border: 1px solid hsl(223, 87%, 63%);
+	cursor: pointer;
+}
+form .btn:focus {
+	outline: none;s
+}
+
+.img img {
+	width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+	background-position: center;
+	background-size: cover;
+}
+
+.social ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
+}
+.social ul li {
+	margin: 0.7rem;
+}
+.social ul li a span i {
+	padding: 0.5rem;
+	width: 20px;
+	border: 1px solid hsl(223, 87%, 63%);
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+}
+.social ul li a span i:hover {
+	background-color: hsl(223, 87%, 63%);
+	color: white;
+}
+footer .copy {
+	text-align: center;
+	color: hsl(0, 0%, 59%);
+	font-size: 1rem;
+}

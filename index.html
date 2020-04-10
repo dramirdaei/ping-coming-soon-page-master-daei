@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="css/mobile.css" />
+		<link
+			rel="stylesheet"
+			media="screen and (min-width:501px)"
+			href="css/desktop.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/23ce7add06.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Frontend Mentor | Ping coming soon page</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="logo">
+				<img src="images/logo.svg" alt="logo" />
+			</div>
+			<div class="text">
+				<h1><span>We are launching</span> soon!</h1>
+				<h3>Subscribe and get notified</h3>
+			</div>
+			<form class="form" id="form">
+				<input type="text" id="input" placeholder="Your Email Address..." />
+				<div id="error"></div>
+				<button type="submit" class="btn">Notify Me</button>
+			</form>
+			<div class="img">
+				<img src="images/illustration-dashboard.png" alt="illustration" />
+			</div>
+			<div class="social">
+				<ul class="">
+					<li>
+						<a href="https://facebook.com"
+							><span><i class="fab fa-facebook-f"></i></span
+						></a>
+					</li>
+					<li>
+						<a href="https://tweeter.com"
+							><span><i class="fab fa-twitter"></i></span
+						></a>
+					</li>
+					<li>
+						<a href="https://instagram.com"
+							><span><i class="fab fa-instagram"></i></span
+						></a>
+					</li>
+				</ul>
+			</div>
+			<footer>
+				<div class="copy">
+					<h4>&copy; Copyright Ping. All rights reserved.</h4>
+				</div>
+				<p class="attribution">
+					Challenge by
+					<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+						>Frontend Mentor</a
+					>. Coded by <a href="#">Amir Daei F.A</a>.
+				</p>
+			</footer>
+		</div>
+		<script src="js/app.js" defer></script>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+.container {
+	width: 800px;
+}
+
+.form {
+	text-align: center;
+}
+#input {
+	width: 65%;
+	display: inline-block;
+}
+form .btn {
+	width: 25%;
+	display: inline-block;
+}
